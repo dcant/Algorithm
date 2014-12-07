@@ -1,7 +1,5 @@
 package cn.edu.sjtu.zzang;
 
-import java.util.ArrayList;
-
 public class MaximumDepthOfBinaryTree {
 	public static void main(String[] args) {
 		MaximumDepthOfBinaryTree bt = new MaximumDepthOfBinaryTree();
