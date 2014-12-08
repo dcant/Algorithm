@@ -1,7 +1,5 @@
 package cn.edu.sjtu.zzang;
 
-import org.w3c.dom.Node;
-
 public class PathSum {
     public boolean hasPathSum(TreeNode root, int sum) {
         if (root == null)
