@@ -1,6 +1,5 @@
 package cn.edu.sjtu.zzang;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Triangle {
