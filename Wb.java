@@ -31,7 +31,7 @@ public class Wb {
 		helper[0] = true;
 		
 		for (int i = 0; i < str.length(); i++) {
-			if (helper[i])
+			if (!helper[i])
 				continue;
 			for (String a : dict) {
 				int len = a.length();
