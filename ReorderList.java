@@ -9,11 +9,8 @@ public class ReorderList {
  
 			//use a fast and slow pointer to break the link to two parts.
 			while (fast != null && fast.next != null && fast.next.next!= null) {
-				//why need third/second condition?
-				System.out.println("pre "+slow.val + " " + fast.val);
 				slow = slow.next;
 				fast = fast.next.next;
-				System.out.println("after " + slow.val + " " + fast.val);
 			}
  
 			ListNode second = slow.next;
