@@ -1,6 +1,13 @@
 package cn.edu.sjtu.zzang;
 
 public class MedianOfTwoSortedArrays {
+	public static void main(String[] args) {
+		MedianOfTwoSortedArrays mot = new MedianOfTwoSortedArrays();
+		int[] A = {1,6};
+		int[] B = {2,3,4,5,7,8,9,10};
+		System.out.println(mot.findMedianSortedArrays(A, B));
+	}
+	
     public double findMedianSortedArrays(int A[], int B[]) {
         if ((A.length + B.length) % 2 == 1)
             return fmsaWorker(A, B, (A.length + B.length)/2, 0, A.length - 1, 0, B.length - 1);
